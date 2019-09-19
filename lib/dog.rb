@@ -17,8 +17,8 @@ class Dog
   end
   
   def self.print_all
-    @@all << self
     @@all = []
+    @@all << self
     puts @@all
   end
   
